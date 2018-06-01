@@ -1,6 +1,6 @@
 # ncurses Background and "Hello World!"
 
-(This is a complete script of the video for reference)
+(This is a complete script of this video https://www.youtube.com/watch?v=oxkv1I49EFw&t=152s for reference)
 
 Hey guys, and welcome to my tutorial series on NCURSES. I intend this series to be a reboot of a series that I previously did. This time I will be going more in-depth about the NCURSES library while still keeping it easy to understand. If you are unfamiliar with what NCURSES is, these two websites here do a really good job of explaining it, and I will be loosely basing my tutorials off of information from both of these sources.
 
