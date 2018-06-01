@@ -1,5 +1,7 @@
 # ncurses Background and "Hello World!"
 
+(This is a complete script of the video for reference)
+
 Hey guys, and welcome to my tutorial series on NCURSES. I intend this series to be a reboot of a series that I previously did. This time I will be going more in-depth about the NCURSES library while still keeping it easy to understand. If you are unfamiliar with what NCURSES is, these two websites here do a really good job of explaining it, and I will be loosely basing my tutorials off of information from both of these sources.
 
 NCURSES (or CURSES) is a library of routines that makes it easy to display characters on a variety of different terminals. Because certain terminals support some features while others don't, and because certain terminals implement the same features differently, the programmer must somehow handle these differences. Instead of having to learn how each terminal displays characters or colors, the programmer can just tell NCURSES to do something and it will figure out how to do that for the specific terminal it is run on.
@@ -12,7 +14,7 @@ I will provide links below to sources which explain how to install NCURSES on a 
 
 As a quick note, I will often use the general word "routine" instead of "function" or "macro" because the NCURSES library contains a mixture of the two kinds of sequences of commands. I will try to make sure to indicate when a routine is a macro and not a function, particularly if it is important to that routines implementation or understanding how it works.
 
-So let's get started. The first thing to do is to make a new C file that we can import NCURSES into. Lets call this file `hello.c`, the astute in the audience may see where this is going. **Type at terminal `vim hello.c`**
+So let's get started. The first thing to do is to make a new C file that we can import NCURSES into. Lets call this file `hello.c`, the astute in the audience may see where this is going. 
 
 I'll be using the vim editor for these tutorials, but any plain text editor will do. The first order of business is to include the ncurses library:
 
